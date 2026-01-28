@@ -35,3 +35,4 @@ if __name__ == "__main__":
     nslookupbyKTZ()
 
 #owner = kaunglinux.dev@gmail.com,kaungthantzaw28527@gmail.com
+#owner's git account = kaungthantzaw28527 , kaung-linux
