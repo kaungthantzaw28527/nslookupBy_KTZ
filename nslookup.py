@@ -5,10 +5,6 @@ def nslookupbyKTZ():
     print("="*30)
     userinputdomain = input("Enter Domain : ").strip()
     print("---- information ------")
-
-    if not userinputdomain:
-        print("Something is wrong or Error: Domain name cannot be empty.")
-        return
     try:
         ip_address = socket.gethostbyname(userinputdomain)
         print(f"[*] IPv4 Address : {ip_address}")
